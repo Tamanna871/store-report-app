@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Dark background */
+  color: #f1f1f1; /* Light text */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #555D50; /* Darker container background */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* Deeper shadow for dark theme */
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+
+
+@media (max-width: 920px) {
+  .container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+
+.title {
+  font-size: 2.4em;
+  margin-bottom: 15px;
+  color: #ffffff; /* White title for contrast */
+}
+
+.subtitle {
+  font-size: 1.6em;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #cccccc; /* Lighter gray for subtitle */
+}
+
+.description {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  color: #bbbbbb; /* Soft gray for description */
+}
+
+.generate-btn {
+  background-color: #060606; /* Vibrant orange button */
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 3px 8px rgba(31, 30, 29, 0.4); /* Soft shadow on button */
+}
+
+.generate-btn:hover {
+  background-color: #242526; /* Darker hover for button */
+}
+
+/* Table Styles */
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: #242526; /* Darker table background */
+  color: #f1f1f1; /* Light text inside the table */
+}
+
+.report-table th,
+.report-table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #353839; /* Subtle border between rows */
+}
+
+.report-table th {
+  background-color: #060606; /* Slightly lighter header */
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.report-table tr:nth-child(even) {
+  background-color: #020403; /* Even rows darker for contrast */
+}
+
+.report-table tr:hover {
+  background-color: #191919; /* Slight hover effect */
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #777777; /* Muted footer text */
+}
