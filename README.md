@@ -113,7 +113,7 @@ cd task_2
 
 ### Frontend Setup
 
-1. Navigate to the `store-report-app` directory:
+1. Open another new terminal and navigate to the `store-report-app` directory:
 
    ```bash
    cd task_2
