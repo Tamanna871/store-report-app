@@ -23,7 +23,7 @@ The project fetches data from the following API endpoint:
 - **Report Generation**: Generates a report listing the top purchasers by total amount spent.
 - **Design**: The UI is built to be clean, intuitive, and easy to navigate.
 
-#### Steps to set up, run, and test the solution
+## Steps to set up, run, and test the solution
 
 ### Set Up the Database
 
